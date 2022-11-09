@@ -35,6 +35,8 @@ public class NOPProjekt {
         evSzam = bill.nextInt();
         }
         while(!isLeapYear(evSzam));
+        
+        backwards(evSzam);
     }
     
 }
